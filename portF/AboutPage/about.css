@@ -1,0 +1,113 @@
+
+.heading { 
+    background-image: url("https://image.shutterstock.com/image-photo/grocery-shopping-cart-260nw-363658811.jpg");
+    background-size: cover;
+    height: 250px;
+    padding-left: 200px;
+    padding-top: 150px;
+} 
+
+.about { 
+    display: flex;
+    align-items: center;
+    flex-wrap: no-wrap;
+    gap: 1.5rem;
+}
+
+.content{
+    flex:1 1 40rem;
+    padding-top: 27px;
+        }   
+
+    .content span{
+        color: green;
+        font-size: 2.5rem;
+    }
+
+        
+
+        .content h3{
+            color: black;
+            font-size: 3rem;
+            padding-top: .5rem;
+        }
+        .content p{
+            color: rgb(16, 2, 27);
+            font-size: 1.4rem;
+            line-height: 2;
+            padding:1rem 0;
+        }
+        .image {
+            width: 50%;
+            min-width: 50%;
+            max-width: 50%;
+            
+            
+        }
+        .image img{
+            width: 100%;
+        }
+        .heading h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+        }
+        .heading p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            
+        }
+    .heading p a{
+        text-decoration: none;
+        color: black;
+    }
+.team .box-container{
+    /* include */
+    grid: 25rem;
+    align-items: flex-start;
+}
+.team .box-container .box{
+    overflow: hidden;
+    text-align: center;
+
+    /* hover .content margin-bottom */
+}
+.team .box-container .box img{
+    width: 100%;
+}
+.team .box-container .box .content{
+    padding: 2rem;
+    margin-bottom: -7rem;
+}
+.team .box-container .box h4{
+    color: black;
+    font-size: 2rem;
+
+}
+.team .box-container .box p{
+    color: black;
+    font-size: 1.4rem;
+    padding: 5rem 0;
+}
+.team .box-container .box .share{
+    margin-top: 1.5rem;
+}
+.team .box-container .box .share a{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    margin: 0 .3rem;
+    background: black;
+    color: white;
+
+    /* hover */
+
+}
+
+
+
+    
+
+    
+
+
